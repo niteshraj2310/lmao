@@ -13,10 +13,16 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+bg {
+    background-image: url("bg.jpg");
+    width: 100%;
+}
+
 html {
   line-height: 1;
 }
 
+	
 ol, ul {
   list-style: none;
 }
@@ -213,6 +219,14 @@ ion-icon {
   background: #004f9f;
 }
 
+.icon-twitter {
+  color: #1DA1F2
+}
+
+.icon-twitter:hover {
+  background: #1DA1F2
+}
+
 .icon-github {
   color: #333;
 }
@@ -237,6 +251,22 @@ ion-icon {
   background: #cd486b;
 }
 
+.icon-telegram {
+  color: #0088cc
+}
+
+.icon-telegram:hover {
+  background: #0088cc
+}
+
+.icon-paypal {
+  color: #222d65
+}
+
+.icon-paypal:hover {
+  background: #222d65
+}
+
 .icon-transcript {
   color: #ff7700;
 }
@@ -251,41 +281,51 @@ ion-icon {
 
 #spin:after {
   content: "";
-  animation: spin 2.5s linear infinite;
+  animation: spin 3.0s linear infinite;
 }
 
 @keyframes spin {
   0% {
-    content: "Go";
+    content: "Pharmacist";
   }
   10% {
-    content: "Terraform";
+    content: "Student";
   }
   20% {
-    content: "Java";
+    content: "Foodie";
   }
   30% {
-    content: "Python";
+    content: "Pharmacist";
   }
   40% {
-    content: "Node";
+    content: "Travel freak";
   }
   50% {
-    content: "JavaScript";
+    content: "Work addict";
   }
   60% {
-    content: "PHP";
+    content: "Pharmacist";
   }
   70% {
-    content: "VB.Net";
+    content: "Leader";
   }
   80% {
-    content: "React";
+    content: "Boy";
   }
   90% {
-    content: "C";
+    content: "Maintainer";
   }
   100% {
-    content: "Bash";
+    content: "21";
   }
+}
+
+/* Footer */
+#footer {
+  color: #777777;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 5px;
 }
