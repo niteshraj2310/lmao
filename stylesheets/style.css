@@ -22,7 +22,7 @@ html {
   line-height: 1;
 }
 
-	
+
 ol, ul {
   list-style: none;
 }
@@ -57,9 +57,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 body {
   color: #333;
+  background-image: url(../bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  background: #f7f7f7;
+  background-color: #f7f7f7;
 }
 
 h1 {
