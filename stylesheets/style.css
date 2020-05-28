@@ -324,11 +324,11 @@ ion-icon {
 }
 
 /* Footer */
-	#footer {
-  color: #777777;
+#footer {
+  left:0px;
   font-size: 14px;
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  bottom: 0px;
   width: 100%;
   margin-bottom: 5px;
 }
