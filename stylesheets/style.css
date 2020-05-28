@@ -56,15 +56,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 body {
-  color: #333;
-  background-image: url(../bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-image:
+	  linear-gradient(
+		  to right,
+		  #d4e1f4, #f3d3d6
+		);
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  background-color: #f7f7f7;
 }
 
 h1 {
