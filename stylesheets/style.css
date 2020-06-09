@@ -289,7 +289,7 @@ ion-icon {
 
 @keyframes spin {
   0% {
-    content: "Pharmacist";
+    content: "Electrician";
   }
   10% {
     content: "Student";
@@ -298,7 +298,7 @@ ion-icon {
     content: "Foodie";
   }
   30% {
-    content: "Pharmacist";
+    content: "Coder";
   }
   40% {
     content: "Travel freak";
@@ -307,7 +307,7 @@ ion-icon {
     content: "Work addict";
   }
   60% {
-    content: "Pharmacist";
+    content: "Android Enthusiast";
   }
   70% {
     content: "Leader";
@@ -319,7 +319,7 @@ ion-icon {
     content: "Maintainer";
   }
   100% {
-    content: "21";
+    content: "23";
   }
 }
 
